@@ -3,9 +3,5 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  build: {
-    rollupOptions: {
-      external: Object.keys(pkg.dependencies),
-    },
-  },
+  plugins: [react()],
 });
