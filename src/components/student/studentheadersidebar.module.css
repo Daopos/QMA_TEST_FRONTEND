@@ -1,0 +1,59 @@
+.burgerMenu {
+    display: none;
+}
+
+@media only screen and (max-width: 1177px) {
+    .burgerMenu {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+.sidenav {
+    height: 100%;
+    width: 0; /* Sidebar starts closed */
+    position: fixed;
+    z-index: 1000; /* Higher value to overlay the timetable */
+    top: 0;
+    left: 0;
+    background-color: #124076;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+}
+
+.sidenavOpen {
+    width: 200px; /* Width when sidebar is open */
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}

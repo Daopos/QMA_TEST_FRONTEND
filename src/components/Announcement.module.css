@@ -1,0 +1,12 @@
+.dropdownToggle::after {
+    content: none;
+}
+
+.dropdownToggle{
+    color:  black !important;
+    background-color: rgb(247, 247, 249) !important;
+    border: none !important;
+}
+
+.dotIcon {
+}
