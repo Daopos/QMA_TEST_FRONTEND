@@ -8,7 +8,7 @@
         "headers": [
           {
             "key": "Access-Control-Allow-Origin",
-            "value": "https://qma-test-frontend.vercel.app"
+            "value": "https://qma-test-frontend.vercel.app/api"
           },
           {
             "key": "Access-Control-Allow-Methods",
